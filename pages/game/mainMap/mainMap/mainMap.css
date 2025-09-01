@@ -1,0 +1,37 @@
+@keyframes hoverBoxShadow {
+  0% {
+    box-shadow: 0 0 5px lightblue;
+  }
+  50% {
+    box-shadow: 0 0 50px lightblue;
+  }
+  100% {
+    box-shadow: 0 0 5px lightblue;
+  }
+}
+
+.game-main-window {
+    .main-map {
+        position:relative;
+        overflow: scroll;
+        height:100%;
+        width:100%;
+        .play-map {
+            position:absolute;
+            content: "";
+            background-color: blueviolet;
+            height: 8000px;
+            width: 8000px;
+            .mainBuilding {
+                position:absolute;
+                background-color: aqua;
+            }
+            .onHover {
+                animation: hoverBoxShadow 3s infinite;
+            }
+            .selected {
+                box-shadow: 0 0 50px lightblue;
+            }
+        }
+    }
+}

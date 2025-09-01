@@ -1,0 +1,165 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Episode {
+  id               String   @id @unique @default(cuid())
+  series           String
+  season           String
+  name             String
+  airDate          String
+  description      String
+  img              String
+  imgCollection    String[]
+  video            String
+  videoCollection  String[]
+  alienRaces       String[]
+  stargateAdresses Int[]
+  pointOfOrigin    Int[]
+  directedBy       String
+  writtenBy        String[]
+  cast             String[]
+  locations        String[]
+}
+
+model StargateAddress {
+  id      String @id @default(cuid())
+  address Int[]
+}
+
+model account {
+  id          String  @id @default(cuid())
+  username    String
+  password    String
+  name        String
+  email       String
+  logged      Boolean
+  QandA       QandA[]
+  player      player[]
+}
+
+model QandA {
+  id           String   @id @default(cuid())
+  userId       String
+  questionType String
+  type         String
+  question     String
+  answer       String
+  right        Int
+  wrong        Int
+  total        Int
+  description  String
+  language     String
+  Timer        Boolean
+
+  account     account @relation(fields:[userId], references: [id])
+
+  @@index([userId])
+  @@unique([id])
+}
+
+model sentenceContruct {
+  id           String   @id @default(cuid())
+  userId       String
+  questionType String
+  type         String
+  question     String
+  hide         Json
+  answer       String[]
+  right        Int
+  wrong        Int
+  total        Int
+  description  String
+  language     String
+  Timer        Boolean
+
+  @@unique([question])
+}
+
+model player {
+  id                  String   @id @default(cuid())
+  userId              String
+  progress_day        Int
+  progress_week       Int
+  progress_month      Int
+  progress_year       Int
+  currentAge          String
+  city                String[]
+  resources           String[]
+  population          Int
+
+  account             account @relation(fields:[userId], references: [id])
+
+  @@index([userId])
+  @@unique([id])
+}
+
+model playerCitys {
+  id                    String   @id @default(cuid())
+  userId                String
+  mainBuilding          String
+  civilBuidlings        String[]
+  militairyBuildings    String[]
+  economicBuildings     String[]
+  covermentBuildings    String[]
+
+  @@unique([id])
+}
+
+model mainBuilding {
+  id                String   @id @default(cuid())
+  userId            String
+  x                 Float
+  y                 Float
+  width             Float
+  height            Float
+  popup             Boolean
+  currentLevel      Int
+  type              String[]
+  modules           String[]
+  levels            String
+  buildNeeds        String[]
+  img               String
+  buildTime         Int
+  residents         Int
+
+  @@unique([id])
+}
+
+model mainBuildingLevel {
+  id                      String   @id @default(cuid())
+  buildNeeds              String[]
+  buildNeedsNumber        Int[]
+  width                   Int?
+  height                  Int?
+  img                     String
+  buildTime               Int
+  needs                   String[]
+  production              String[]
+  age                     String
+  upgradeBuildingType     Boolean
+
+  @@unique([id])
+}
+
+model stargateCast {
+  id                      String   @id @default(cuid())
+  name                    String
+  rol                     String
+  numberOfEpisodes        Int
+  yearsActive             String[]
+  atlantisSeasonOne       String
+  atlantisSeasonTwo       String
+  atlantisSeasonThree     String
+  atlantisSeasonFor       String
+  atlantisSeasonFive      String
+  atlantis                Boolean
+  img                     String
+
+  @@unique([id])
+}

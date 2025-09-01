@@ -1,0 +1,17 @@
+.civil-button-setType {
+    width: 80%;
+    height: 3cm;
+    border: 1px solid black;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgb(111, 173, 173);
+    transition: background-color 0.5s;
+}
+
+.civil-button-setType > h4 {
+    pointer-events: none;
+}
+
+.civil-button-setType-hover :hover {
+    background-color: aqua;
+}

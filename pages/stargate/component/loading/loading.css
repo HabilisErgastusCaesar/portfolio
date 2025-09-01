@@ -1,0 +1,38 @@
+@keyframes loadingIndicator {
+  0% {
+    width:0%;
+  }
+  100% {
+    width:50%;
+  }
+}
+
+.loading {
+    position: relative;
+    &::before,
+    &::after {
+        position: absolute;
+        content: "";
+        top:0;
+        bottom:0;
+        background-color: rgba(7, 7, 70, .6);
+        animation: loadingIndicator 3s infinite;
+    }
+    &::before {
+        left:0;
+    }
+    &::after {
+        right:0;
+    }
+}
+
+.stargate-layout-Atlantis {
+    .loading {
+        height:86vh;
+    }
+}
+.stargate-command-bigger-layout-atlantis {
+    .loading {
+        min-height: 400px;
+    }
+}

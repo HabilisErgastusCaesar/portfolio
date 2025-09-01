@@ -1,0 +1,382 @@
+@media screen and (min-width: 1199px) {
+  .bigger-page-layout {
+    padding:0;
+    border:none;
+    width:100%;
+    max-width: none;
+    .stargate-command-layout-child {
+      height: fit-content;
+      max-height: none;
+      overflow: visible;
+    }
+    .info-layout-parent {
+      width:23rem;
+    }
+    .cast-layout-parent {
+      width:20rem;
+    }
+    .stargate-command-layout-parent {
+      width:20rem;
+    }
+    .stargate-command-layout {
+      width:100%;
+      max-width: none;
+    }}
+    
+    .stargate-command-bigger-layout {
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    .stargate-command-bigger-layout-sg-1 {
+      position: relative;
+      height:94vh;
+      scrollbar-color: rgb(0, 255, 13) rgba(0, 110, 255, 0);
+      scrollbar-width: thin;
+      font-family: sans-serif;
+      color:white;
+      border: 5px solid rgb(0, 110, 255);
+      animation: lightAnimation 5s infinite ease;
+      .info-layout-parent,
+      .cast-layout-parent,
+      .stargate-command-layout-parent {
+        display: flex; 
+        flex-direction: column;
+      }
+      .info-layout-child,
+      .cast-layout-child,
+      .info-layout,
+      .cast-layout,
+      .stargate-command-layout-child,
+      .stargate-command-layout-child-two {
+        position: relative;
+        border: 5px solid rgb(0, 110, 255);
+        margin:1rem;
+      }
+
+      .loading-line {
+        position:sticky;
+        top:20px;
+        border: 2.5px solid rgb(0, 110, 255);
+        margin:2%;
+        animation: loadingBarLightAnimation 10s infinite ease;
+      }
+      
+      .info-layout,
+      .cast-layout,
+      .stargate-command-layout-child {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        height: fit-content;
+        max-height: none; 
+        .headings-scroll {
+          position:fixed;
+          content: "";
+          align-items: center;
+          top:8vh;
+          z-index: 1;
+          background-color: rgba(0, 110, 255,.5);
+          backdrop-filter: blur(10px);
+          border: 2.5px solid rgb(0, 110, 255);
+          transition: background-color 1s;
+        }
+        .headings-non-scroll {
+          position:relative;
+          justify-self: center;
+          background-color: rgba(0, 0, 0,.5);
+          margin-top: -5.7rem;
+          border: 0 solid rgb(0, 110, 255);
+          border-bottom: 2.5px solid rgb(0, 110, 255);
+          transition: background-color 3s;
+        }
+        .headings {
+          justify-items: center;
+          h1 {
+              padding:1rem;
+          }
+          h3 {
+              padding-bottom:1rem;
+          }
+        }
+        .headings-info {
+          width:14.6rem;
+        }
+        .headings-cast {
+          width:14.7rem;
+        }
+        .headings-episode {
+          width:16.8rem;
+        }
+      }
+
+      .when-fixed-position {
+        height:6rem;
+      }
+
+      .info-layout-child,
+      .cast-layout-child,
+      .stargate-command-layout-child-two {
+        flex:1;
+        height: 100%;
+        min-height: 10rem;
+        max-height: none;
+      }
+      .stargate-command-layout-child {
+      .stargate-episode-layout {
+        margin-bottom:2rem;
+        margin-top: 2rem;
+        .main_box_h3,
+        .main_box_p {
+          border-left: 20px solid rgb(0, 110, 255);
+          border-right: 20px solid rgb(0, 110, 255);
+        }
+        .main_box_h3 {
+          border-top: 2px solid rgb(0, 110, 255);
+          border-bottom: 2px solid rgb(0, 110, 255);
+          box-shadow: inset 0 0 0px white;
+          transition: border-top 2s, border-bottom 2s, border-left 2s, border-right 2s, box-shadow 2s;
+        }
+        
+        .main_box_p {
+          border-left: 2px solid rgb(0, 110, 255);
+          border-right: 2px solid rgb(0, 110, 255);
+          transition: border-left 2s, border-right 2s;
+        }
+        &:hover {
+          .main_box_h3{
+            border-top: 2px solid rgb(0, 255, 13);
+            border-bottom: 2px solid rgb(0, 255, 13);
+            border-left: 20px solid rgb(0, 255, 13);
+            border-right: 20px solid rgb(0, 255, 13);
+            box-shadow: inset 0 0 25px white;
+          }
+          
+          .main_box_p{
+            border-left: 2px solid rgb(0, 255, 13);
+            border-right: 2px solid rgb(0, 255, 13);
+          }
+        }
+      }
+    }
+  }
+  .stargate-command-bigger-layout-atlantis {
+    justify-items:center;
+    height:94vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-color: rgb(0, 255, 13) rgba(0, 110, 255, 0);
+    scrollbar-width: thin;
+    border: 4px solid lightblue;
+    max-height: none;
+    .cast-layout-parent,
+    .info-layout-parent,
+    .stargate-command-layout-parent {
+      display: flex;
+      flex-direction: column;
+    }
+    .stargate-layout-Atlantis {
+      max-height: none;
+      height:fit-content;
+    }
+    img {
+        width:96%;
+    }
+    .info-layout,
+    .info-layout-child,
+    .cast-layout,
+    .cast-layout-child,
+    .stargate-command-layout-child,
+    .stargate-command-layout-child-two {
+      color:white;
+      border: 4px solid lightblue;
+      border-radius: 1rem;
+      margin: 1rem;
+    }
+    .info-layout,
+    .cast-layout,
+    .stargate-command-layout-child {
+      overflow-x: hidden;
+      overflow-y: hidden;
+      height: fit-content;
+      max-height: none; 
+    }
+    .info-layout-child,
+    .cast-layout-child,
+    .stargate-command-layout-child-two {
+      flex:1;
+      height: 100%;
+      min-height: 200px;
+      max-height: none;
+    }
+    .search {
+      height:auto;
+    }
+    .non-search {
+      height:auto;
+    }
+    .stargate-command-layout-parent {
+      margin-right:9rem;
+    }
+    .headings {
+      justify-items: center;
+      padding: 1rem;
+    }
+    .headings-scroll {
+      position:fixed;
+      align-items: center;
+      top:5vh;
+      z-index: 1;
+      background-color: rgba(0, 110, 255,.5);
+      backdrop-filter: blur(10px);
+      border-right: 4px solid lightblue;
+      border-bottom: 4px solid lightblue;
+      border-bottom-right-radius: 15px;
+      transition: background-color 1s;
+    }
+    .headings-non-scroll {
+      position:relative;
+      justify-self: center;
+      width:100%;
+      background-color: rgba(0, 0, 0,.5);
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+      transition: background-color 3s;
+    }
+  }
+  .headings-info {
+    width:14.6rem;
+  }
+  .headings-cast {
+    width:14.7rem;
+  }
+  .headings-episode {
+    width:16.8rem;
+  }
+  
+}
+
+@media screen and (min-width: 1299px) {
+  .bigger-page-layout {
+    .stargate-command-bigger-layout-sg-1 {
+      .info-layout {
+        width:22.6rem;
+      }
+      .cast-layout {
+          width:18rem;
+      }
+      .stargate-command-layout-parent {
+        width:26rem;
+      }
+      .headings-scroll {
+        transform: translateX(1rem);
+        border: 3px solid black !important;
+        filter: drop-shadow(20px 3px 4px rgb(0, 110, 255)) 
+        drop-shadow(-20px 0 4px rgb(0, 110, 255));
+      }
+    }
+    .info-layout-parent {
+      width:20.6rem;
+    }
+    .stargate-command-layout {
+      width:15.4rem;
+      max-width: none;
+      .stargate-command-layout-child {
+        width:15.4rem ;
+      }
+    }
+    .stargate-command-bigger-layout-atlantis {
+      .info-layout-parent {
+        margin-left:150px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1399px) {
+  .bigger-page-layout {
+    .stargate-command-bigger-layout-sg-1 {
+      .headings-scroll {
+        transform: translateX(3rem);
+        filter: drop-shadow(30px 0 4px #4444dd) drop-shadow(-30px 0 4px #4444dd);
+      }
+      .info-layout-parent {
+        width:24.6rem;
+      }
+      .info-layout {
+          width:22.6rem;
+      }
+      .cast-layout {
+          width:20rem;
+      }
+      .cast-layout-parent {
+          width:22rem;
+      }
+    }
+    .stargate-command-layout {
+      width:40.4rem !important;
+      max-width: none;
+      .stargate-command-layout-child {
+        width:26.4rem !important;
+      }
+    }
+    .stargate-command-bigger-layout-atlantis {
+      .info-layout-parent {
+        margin-right:2rem;
+      }
+      .stargate-command-layout-parent {
+        margin-left:2rem;
+      }
+      .cast-layout-parent,
+      .info-layout-parent,
+      .stargate-command-layout-parent {
+        position:relative;
+        margin-top:1rem;
+        border: 2px solid lightblue;
+        border-radius: 1rem;
+        &::before,
+        &::after {
+          position: absolute;
+          content:"";
+          border-left: 4px solid lightblue;
+          border-right: 4px solid lightblue;
+          border-radius: 1rem;
+          max-height: none;
+          flex:1;
+          left:0;
+          right:0;
+          height:200px;  
+        }
+        &::before {
+          top:0;
+          border-top: 4px solid lightblue;
+          border-radius: 1rem;
+        }
+        &::after {
+          bottom:0;
+          border-bottom: 4px solid lightblue;
+          border-radius: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1599px) {
+  .bigger-page-layout {
+    .info-layout {
+      width:26.5rem;
+    }
+    .info-layout-parent {
+        width:28.6rem;
+    }
+    .cast-layout {
+      width:20.6rem;
+    }
+    .stargate-command-layout {
+      width:100%;
+      max-width: none;
+      .stargate-command-layout-child {
+        width:20%;
+      }
+    }
+  }
+}

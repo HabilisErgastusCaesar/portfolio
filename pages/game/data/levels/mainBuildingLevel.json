@@ -1,0 +1,566 @@
+[
+    {
+        "id":"level1",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [1,3],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs": [""],
+        "production": [""],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    },
+    {
+        "id":"level2",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [2,3],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs": ["meat","grain"],
+        "production": ["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false},
+    {
+        "id":"level3",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [2,5],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false}
+    ,
+    {
+        "id":"level4",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [2,8],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false}
+    ,
+    {
+        "id":"level5",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [3,5],
+        "width":68.0314960638,
+        "height":90.7086614184,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false    
+    }
+    ,
+    {
+        "id":"level6",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [5,3],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level7",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [2,3],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level8",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [8,3],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level9",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [4,3],
+        "width":90.7086614184,
+        "height":90.7086614184,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level10",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [6,3],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level11",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [6,4],
+        "width":90.7086614184,
+        "height":113.385826773,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level12",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [6,5],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level13",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [6,3],
+        "width":113.385826773,
+        "height":113.385826773,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level14",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [2,3],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level15",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [6,7],
+        "width":136.062992128,
+        "height":90.7086614184,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level16",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [6,4],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level17",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [6,2],
+        "width":136.062992128,
+        "height":113.385826773,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level18",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [6,1],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level19",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [6,9],
+        "width":136.062992128,
+        "height":136.062992128,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level20",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [6,7],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Paleolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level21",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [6,4],
+        "width":158.740157482,
+        "height":136.062992128,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":true
+    }
+    ,
+    {
+        "id":"level22",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level23",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":158.740157482,
+        "height":181.417322837,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level24",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level25",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":113.385826773,
+        "height":113.385826773,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level26",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level27",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":90.7086614184,
+        "height":90.7086614184,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level28",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level29",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":181.417322837,
+        "height":90.7086614184,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level30",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level31",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":90.7086614184,
+        "height":90.7086614184,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level32",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":null,
+        "height":null,
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level33",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":90.7086614184,
+        "height":90.7086614184,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level34",
+        "width":null,
+        "height":null,
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level35",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":90.7086614184,
+        "height":90.7086614184,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level36",
+        "width":null,
+        "height":null,
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level37",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":90.7086614184,
+        "height":90.7086614184,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level38",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level39",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":90.7086614184,
+        "height":90.7086614184,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level40",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "img":"",
+        "buildTime":10,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Mesolithic",
+        "upgradeBuildingType":false
+    }
+    ,
+    {
+        "id":"level41",
+        "buildNeeds": ["bone","hide"],
+        "buildNeedsNumber": [],
+        "width":90.7086614184,
+        "height":90.7086614184,
+        "img":"",
+        "buildTime":400,
+        "needs":["hideClothing","meat","grain"],
+        "production":["hideClothing","meat","grain","sticks","rocks","bone","hide"],
+        "age":"Neolithic",
+        "upgradeBuildingType":true
+    }
+]

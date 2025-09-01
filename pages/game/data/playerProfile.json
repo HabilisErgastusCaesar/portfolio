@@ -1,0 +1,14 @@
+[
+    {
+        "id":"player_one",
+        "userId":"Guest-User",
+        "progress_day":0,
+        "progress_week":0,
+        "progress_month":0,
+        "progress_year":0,
+        "currentAge":"",
+        "city":["mainMapPlayer_one"],
+        "resources":["wood"],
+        "population":30
+    }
+]

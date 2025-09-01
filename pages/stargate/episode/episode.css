@@ -1,0 +1,832 @@
+@keyframes background-width {
+    0% {
+        background-color: rgba(0, 247, 255, .03);
+        width:15%;
+    }
+    30% {
+        background-color: rgba(0, 247, 255, .05);
+    }
+    55% {
+        background-color: rgba(0, 247, 255, .03);
+        width:43%;
+    }
+    85% {
+        background-color: rgba(0, 247, 255, .01);
+    }
+    100% {
+        background-color: rgba(0, 247, 255, .03);
+        width:15%;
+    }
+}
+
+@keyframes status-screen-1 {
+    0% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    16% {
+        color: rgba(255, 255, 255, 1);
+    }
+    17% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    18% {
+        background-color: rgba(240, 245, 255, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    19% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 1);
+    }
+    20% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    21% {
+        background-color: rgba(240, 245, 255, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    22% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    39% {
+        color: rgba(255, 255, 255, 1);
+    }
+    40% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    41% {
+        background-color: rgba(240, 245, 255, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    42% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes status-screen-2 {
+    0% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    9% {
+        color: rgba(255, 255, 255, 1);
+    }
+    10% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    11% {
+        background-color: rgba(240, 245, 255, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    12% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes status-screen-3 {
+    0% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    49% {
+        color: rgba(255, 255, 255, 1);
+    }
+    50% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    51% {
+        background-color: rgba(240, 245, 255, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    52% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    69% {
+        color: rgba(255, 255, 255, 1);
+    }
+    70% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    71% {
+        background-color: rgba(240, 245, 255, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    72% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes status-screen-4 {
+    0% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    20% {
+        color: rgba(255, 255, 255, 1);
+    }
+    21% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    22% {
+        background-color: rgba(240, 245, 255, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    23% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes status-screen-5 {
+    0% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    23% {
+        color: rgba(255, 255, 255, 1);
+    }
+    24% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    25% {
+        background-color: rgba(240, 245, 255, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    26% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    69% {
+        color: rgba(255, 255, 255, 1);
+    }
+    70% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    71% {
+        background-color: rgba(240, 245, 255, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    72% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes status-screen-6 {
+    0% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    34% {
+        color: rgba(255, 255, 255, 1);
+    }
+    35% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    36% {
+        background-color: rgba(240, 245, 255, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    37% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes status-screen-7 {
+    0% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    67% {
+        color: rgba(255, 255, 255, 1);
+    }
+    68% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    69% {
+        background-color: rgba(240, 245, 255, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    70% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    82% {
+        color: rgba(255, 255, 255, 1);
+    }
+    83% {
+        background-color: rgba(240, 245, 255, 0);
+        color: rgba(255, 255, 255, 0);
+    }
+    84% {
+        background-color: rgba(240, 245, 255, 1);
+        color: rgba(255, 255, 255, 1);
+    }
+    85% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-1 {
+    0% {
+        background-color: #000;
+    }
+    13% {
+        background-color: #000;
+    }
+    14% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    15% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-2 {
+    0% {
+        background-color: #000;
+    }
+    23% {
+        background-color: #000;
+    }
+    24% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    25% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-3 {
+    0% {
+        background-color: #000;
+    }
+    33% {
+        background-color: #000;
+    }
+    34% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    35% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-4 {
+    0% {
+        background-color: #000;
+    }
+    43% {
+        background-color: #000;
+    }
+    44% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    45% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-5 {
+    0% {
+        background-color: #000;
+    }
+    53% {
+        background-color: #000;
+    }
+    54% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    55% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-6 {
+    0% {
+        background-color: #000;
+    }
+    63% {
+        background-color: #000;
+    }
+    64% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    65% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-7 {
+    0% {
+        background-color: #000;
+    }
+    73% {
+        background-color: #000;
+    }
+    74% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes statusBarMovement {
+    from {
+        aspect-ratio: 1/4;
+        width: 0%;
+        left:-20%;
+    }
+
+    to {
+        aspect-ratio: 5/1;
+        width: 50%;
+        left:100%;
+    }
+}
+
+.episode-page-layout {
+    color:white;
+    width: 100%;
+    height: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.episode-page-layout-sg1 {
+    border: 10px solid lightblue;
+    background-color: #000;
+    border: 5px solid rgb(0, 110, 255);
+}
+
+.episode-page-layout-sg1 {
+    h1 {
+        margin: 1rem 1rem 0 1rem;
+        border-top: 2px solid rgb(0, 110, 255);
+        border-bottom: 2px solid rgb(0, 110, 255);
+        border-left: 20px solid rgb(0, 110, 255);
+        border-right: 20px solid rgb(0, 110, 255);
+        padding:1rem;
+    }
+
+    .episode-page-container {
+        margin: 0 1rem 0 1rem;
+        border-bottom: 2px solid rgb(0, 110, 255);
+        border-left: 20px solid rgb(0, 110, 255);
+        border-right: 20px solid rgb(0, 110, 255);
+        padding:1rem;
+    }
+
+    .statusBar {
+        position: relative;
+        overflow: hidden;
+        margin: .1rem 1rem 0 1rem;
+        width: 90%;
+        aspect-ratio: 8/1;
+        border: 2px solid rgb(0, 110, 255);
+        span {
+            position: absolute;
+            margin: .1rem;
+            aspect-ratio: 1;
+            left:0;
+            background-color: antiquewhite;
+            animation: statusBarMovement 20s infinite;
+        }
+    }
+
+    .dial-the-gate-season1 {
+        display: flex;
+        position: relative;
+        width:90%;
+        margin:0 5% 0 5%;
+        
+        .encoded {
+            overflow: hidden;
+            width:20%;
+            aspect-ratio: 1;
+            border: 2px solid rgb(0, 110, 255);
+            margin: .1rem;
+        }
+        
+        .chevron-1 {
+            position: relative;
+        }
+
+        .chevron-1::before {
+            content: "";
+            position: absolute;
+            left:.0;
+            top:0;
+            bottom:0;
+            right:0;
+            background-color: #000;
+            animation: dial-screen-1 20s infinite;
+        }
+        
+        .chevron-2 {
+            position: relative;
+        }
+        
+        .chevron-2::before {
+            content: "";
+            position: absolute;
+            left:0;
+            top:0;
+            bottom:0;
+            right:0;
+            background-color: #000;
+            animation: dial-screen-2 20s infinite;
+        }
+        
+        .chevron-3 {
+            position: relative;
+        }
+
+        .chevron-3::before {
+            content: "";
+            position: absolute;
+            left:0;
+            top:0;
+            bottom:0;
+            right:0;
+            background-color: #000;
+            animation: dial-screen-3 20s infinite;
+        }
+        
+        .chevron-4 {
+            position: relative;
+        }
+        
+        .chevron-4::before {
+            content: "";
+            position: absolute;
+            left:0;
+            top:0;
+            bottom:0;
+            right:0;
+            background-color: #000;
+            animation: dial-screen-4 20s infinite;
+        }
+        
+        .chevron-5 {
+            position: relative;
+        }
+        
+        .chevron-5::before {
+            content: "";
+            position: absolute;
+            left:0;
+            top:0;
+            bottom:0;
+            right:0;
+            background-color: #000;
+            animation: dial-screen-5 20s infinite;
+        }
+        
+        .chevron-6 {
+            position: relative;
+        }
+        
+        .chevron-6::before {
+            content: "";
+            position: absolute;
+            left:0;
+            top:0;
+            bottom:0;
+            right:0;
+            background-color: #000;
+            animation: dial-screen-6 20s infinite;
+        }
+        
+        .chevron-7 {
+            position: relative;
+        }
+        
+        .chevron-7::before {
+            content: "";
+            position: absolute;
+            left:0;
+            top:0;
+            bottom:0;
+            right:0;
+            background-color: #000;
+            animation: dial-screen-7 20s infinite;
+        }
+    }
+}
+
+.episode-page-layout-Atlantis {
+    border: 10px solid lightblue;
+    background-color: rgb(12, 40, 78);
+    
+    .dial-the-gate-season1 {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        border: 2px solid lightblue;
+        width: 90%;
+        max-width: 340px;
+        height: 100%;
+        margin: 1rem;
+        
+        .idle {
+            border: 2px solid lightblue;
+            width: 20%;
+            margin: .1rem;
+            height: 28px;
+            background-color: rgba(240, 245, 255, 0);
+        }
+
+        .section-1 {
+            animation: status-screen-1;
+            animation-delay: .5s;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        }
+
+        .section-2 {
+            animation: status-screen-2;
+            animation-delay: .5s;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        }
+
+        .section-3 {
+            animation: status-screen-3;
+            animation-delay: .5s;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        }
+
+        .section-4 {
+            animation: status-screen-4;
+            animation-delay: .5s;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        }
+
+        .section-5 {
+            animation: status-screen-5;
+            animation-delay: .5s;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        }
+
+        .section-6 {
+            animation: status-screen-6;
+            animation-delay: .5s;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        }
+
+        .section-7 {
+            animation: status-screen-7;
+            animation-delay: .5s;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        }
+    }
+
+    .episode-page-container {
+        position: relative;
+        max-width: 340px;
+        .Atlantis {
+            background-color: rgb(12, 40, 78);
+            border: 2px solid lightblue;
+            margin: 1rem;
+            width:90%;
+        }
+        
+        .Atlantis p {
+            padding: 1rem;
+        }
+        
+        .Atlantis ::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0; 
+            bottom:0;
+            margin-left: 1rem;
+            border-top: 5px solid lightblue;
+            border-left: 5px solid lightblue;
+            border-bottom: 5px solid lightblue;
+            width:20%;
+            transition: width 2s ease;
+        }
+    
+        .Atlantis ::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0; 
+            bottom:0;
+            margin-right: 1rem;
+            border-top: 5px solid lightblue;
+            border-right: 5px solid lightblue;
+            border-bottom: 5px solid lightblue;
+            width:20%;
+            transition: width 2s ease;
+        }
+
+        .Atlantis-background ::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0; 
+            bottom:0;
+            margin-left: 1rem;
+            background-color: rgba(0, 247, 255, .01);
+            width:15%;
+            transition: background-color 2s, width 2s;
+        }
+    
+        .Atlantis-background ::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom:0;
+            margin-right: 1rem;
+            background-color: rgb(127, 255, 212, .01);
+            width:15%;
+            transition: background-color 2s, width 2s;
+        }
+    }
+
+    &:hover {
+        .episode-page-container {
+            .Atlantis ::before {
+                border-top: 5px solid lightblue;
+                border-left: 5px solid lightblue;
+                border-bottom: 5px solid lightblue;
+                width:88%;
+                height:92%;
+            }
+        
+            .Atlantis ::after {
+                border-top: 5px solid lightblue;
+                border-right: 5px solid lightblue;
+                border-bottom: 5px solid lightblue;
+                width:0%;
+                height:92%;
+            }
+
+            .Atlantis-background ::before {
+                background-color: rgba(0, 247, 255, .05);
+                width:88%;
+            }
+        
+            .Atlantis-background ::after {
+                background-color: rgba(0, 247, 255, .05);
+                width:0%;
+            }
+        }
+    }
+}

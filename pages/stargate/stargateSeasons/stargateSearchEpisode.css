@@ -1,0 +1,304 @@
+:root {
+  --delay: 5s;
+  --timing: 5s;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+/* animations */
+@keyframes lightAnimation {
+  0% {
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+  }
+  25% {
+    border-color: lightblue;
+    box-shadow: 0 0 10px lightblue;
+  }
+  50% {
+    border-color: blue;
+    box-shadow: 0 0 15px blue;
+  }
+  75% {
+    border-color: lightblue;
+    box-shadow: 0 0 10px lightblue;
+  }
+  100% {
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+  }
+}
+
+@keyframes smallLightAnimation {
+  0% {
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+  }
+  25% {
+    border-color: lightblue;
+    box-shadow: 0 0 10px lightblue;
+  }
+  50% {
+    border-color: blue;
+    box-shadow: 0 0 15px blue;
+  }
+  75% {
+    border-color: lightblue;
+    box-shadow: 0 0 10px lightblue;
+  }
+  100% {
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+  }
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translatey(30%);
+  }
+  100% {
+    transform: translatey(-100%);
+  }
+}
+
+@keyframes boxShadowAtlantis {
+  0% {
+    box-shadow:inset 0 0 50px rgb(96, 164, 187) ,  0 0 50px rgb(96, 164, 187);
+  }
+  25% {
+    box-shadow:inset 0 0 60px rgb(96, 164, 187) ,  0 0 50px rgb(96, 164, 187);
+  }
+  50% {
+    box-shadow:inset 0 0 50px rgb(96, 164, 187) ,  0 0 50px rgb(96, 164, 187);
+  }
+  75% {
+    box-shadow:inset 0 0 40px rgb(96, 164, 187) ,  0 0 50px rgb(96, 164, 187);
+  }
+  100% {
+    box-shadow:inset 0 0 45px rgb(96, 164, 187) ,  0 0 50px rgb(96, 164, 187);
+  }
+}
+
+@-webkit-keyframes h-move {
+  0% {
+    left: -0.5rem;
+  }
+  100% {
+    left: 20rem;
+  }
+}
+
+@keyframes h-move {
+  0% {
+    left: -0rem;
+  }
+  100% {
+    left: 20rem;
+  }
+}
+
+@keyframes loadingBarLightAnimation {
+  0% {
+    height: 0rem;
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+  }
+  12.5% {
+    border-color: lightblue;
+    box-shadow: 0 0 10px lightblue;
+  }
+  25% {
+    border-color: blue;
+    box-shadow: 0 0 15px blue;
+  }
+  37.5% {
+    border-color: lightblue;
+    box-shadow: 0 0 10px lightblue;
+  }
+  50% {
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+  }
+  62.5% {
+    border-color: lightblue;
+    box-shadow: 0 0 10px lightblue
+    
+  }
+  75% {
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+  }
+  87.5% {
+    border-color: lightblue;
+    box-shadow: 0 0 10px lightblue;
+  }
+  100% {
+    height:87.6vh;
+    border-color: blue;
+    box-shadow: 0 0 5px blue;
+  }
+}
+
+/* bar */
+
+.bar {
+  position: absolute;
+  width: 5rem;
+  height: 0.3rem;
+  border: 2px solid blue;
+  border-radius: 5px;
+  animation: lightAnimation var(--timing) infinite;
+  background: blue;
+  transition: all var(--timing) linear;
+  -webkit-animation-duration: var(--timing);
+  animation-duration: var(--timing);
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.bar.delay {
+  animation-delay: var(--delay);
+  -webkit-animation-delay: var(--delay);
+}
+.top {
+  top: -0.4rem;
+}
+
+.top {
+  -webkit-animation-name: h-move;
+  animation-name: h-move;
+}
+
+/* main box h3 */
+
+.main_box_h3 {
+  position: relative;
+  max-width: 600px;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 5px;
+}
+
+/* main box p */
+
+.main_box_p {
+  max-width: 600px;
+  position: relative;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+
+/* main box img*/
+
+.main_box_img  img {
+  width:100%;
+}
+
+.bigger-page-layout-sg-1 {
+  background-color: rgb(0, 0, 0);
+}
+
+.bigger-page-layout-atlantis {
+  background-color: rgba(12, 40, 78);
+}
+
+.bigger-page-layout {
+  .stargate-command-layout {
+    cursor: default;
+    position: relative;
+    margin: 0 auto;
+    color: #fff;
+    max-width: 620px;
+    .option-button {
+      display:flex;
+      text-align: center;
+      width: 100%;
+      section {
+        width:33%;
+      }
+      .selected {
+        height:5rem;
+        border-top: none;
+        border-bottom:none;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+      }
+      .selected-info {
+        border-right:none;
+        border-bottom-right-radius: 1rem;
+      }
+      .selected-cast {
+        border-left:none;
+        border-bottom-left-radius: 1rem;
+      }
+      .not-selected {
+        border-top: none;
+        height:2rem;
+      }
+      .not-selected-cast {
+        border-left:none;
+        border-right:none;
+        border-bottom-left-radius: 1rem;
+      }
+      .not-selected-info {
+        border-left:none;
+        border-right:none;
+        border-bottom-right-radius: 1rem;
+      }
+    }
+    .headings {
+      padding:1rem 0 1rem .5rem;
+    }
+  }
+
+.stargate-command-layout-universe {
+  position:relative;
+  .stargate-command-layout-Universe::before {
+    content: "";
+    position: absolute;
+    background-color: aqua;
+    width: 100%;
+    height:100%;
+  }
+}}
+
+.stargate-episode-container  p {
+  overflow:hidden !important;
+  height:10rem;
+  padding:1rem;
+  order:1;
+}
+
+@media screen and (min-width: 400px) {
+  .bigger-page-layout {
+    padding-top:1rem;
+  }
+  .stargate-command-layout {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .bigger-page-layout {
+    padding-top:2rem;
+  }
+  .stargate-episode-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .bigger-page-layout {
+    padding:3rem;
+    border: 1px solid purple;
+  }
+}
+

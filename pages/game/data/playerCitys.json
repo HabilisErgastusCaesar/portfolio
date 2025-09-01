@@ -1,0 +1,11 @@
+[
+    {
+        "id":"mainMapPlayer_one",
+        "userId":"player_one",
+        "mainBuilding":"mainBuildingOne",
+        "civilBuidlings":[""],
+        "militairyBuildings":[""],
+        "economicBuildings":[""],
+        "covermentBuildings":[""]
+    }
+]

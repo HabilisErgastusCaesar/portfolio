@@ -1,0 +1,32 @@
+.intro-menu {
+    background-color: aquamarine;
+    justify-items: center;
+    cursor:default;
+    position: relative;
+    height:300vh;
+    img {
+        margin: 10%;
+        width:80%;
+    }
+    section {
+        background-color: aqua;
+        text-align: center;
+        margin:.4rem;
+        padding: .4rem;
+        cursor:pointer;
+        border: solid 2px black;
+    }
+    .login-menu-container {
+        position:fixed;
+        justify-items: center;
+        background-color: rgba(240, 248, 255, .4);
+        backdrop-filter: blur(2px);
+        width: 100%;
+        top: 40px;
+        .login-menu {
+            background-color: aliceblue;
+            padding:.5rem 1rem 1rem 1rem;
+            margin:1rem 0;
+            border-radius: 10px;
+        }}
+}

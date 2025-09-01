@@ -1,0 +1,17 @@
+[
+    {
+        "userId": "Guest-User",
+        "questionType": "sentenceConstruct",
+        "type":"typedNoTimer",
+        "question":"Gallia est omnis divisia in partres tres, quarum unam incolunt Belgae",
+        "hide":[{"index":4,"hyde":"divisia"},{"index":6,"hyde":"tres"},{"index":9,"hyde":"incolunt"}],
+        "answer":["divided","three","inhabit"],
+        "hideIsAnswer": false,
+        "right" : 0,
+        "wrong": 0,
+        "total": 0,
+        "description" : "first think of the words that are missing than translate them",
+        "language" : "classicalLatinToEnglish",
+        "Timer": false
+    }
+]

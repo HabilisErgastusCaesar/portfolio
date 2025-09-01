@@ -1,0 +1,38 @@
+.testList-Layout {
+    position: relative;
+    width:100%;
+    cursor: default;
+    justify-self: center;
+    text-align: center;
+    background-color: aquamarine;
+    .links {
+        display: flex;
+        background-color: azure;
+        section {
+            width: 100%;
+            padding:.3rem;
+            border: 1px solid black;
+        }
+    }
+    .button {
+        background-color: aqua;
+        border: 2px solid black;
+    }
+    .Item-Container {
+        background-color: rgba(240, 255, 255 , .8);
+        margin:1rem;
+        padding:1rem;
+        border-radius: 20px;
+        h4,p,input {
+            text-align: center;
+            padding: .3rem;
+            margin:1px;
+            border: 1px solid black;
+        }
+        .Grid {
+            text-align: center;
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+        }
+    }
+}

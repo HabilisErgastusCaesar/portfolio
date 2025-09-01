@@ -1,0 +1,77 @@
+.Info_Bar {
+    background-color: aquamarine;
+    height:100%;
+    width:100%;
+}
+
+.headResource {
+    display:inline-flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+    padding: .2rem;
+    border: 1px solid black;
+}
+
+.headResource > h3 {
+    padding: .3rem;
+}
+
+.resource{
+    display:inline-flex;
+    flex-direction: row;
+    margin: .3rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color:blanchedalmond;
+    height: 1.5cm;
+    pointer-events: none;
+}
+
+.resource > h3 {
+    padding:.3rem;
+    background-color: azure;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.marginRight{
+    margin-right: .3rem;
+}
+
+.head-status-bar{
+    display:inline-flex;
+    flex-direction: row;
+    width: 10cm;
+    margin: .3rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color:blanchedalmond;
+}
+
+.status-bar-container {
+    width: 2cm; 
+    height: 20px; 
+    background-color: #e0e0e0; 
+    border: 1px solid #000; 
+    margin-top: 10px; 
+    box-sizing: border-box; 
+}
+
+.status-bar {
+    width: 0;
+    height: 100%;
+    background-color: green; 
+}
+
+.daysWeeksYears{
+    display:inline-flex;
+    flex-direction: row;
+    border: 1px solid black;
+    background-color:blanchedalmond;
+}
+
+.head-status-bar > h3 {
+    border: 1px solid black;
+    background-color: aliceblue;
+    margin: .3rem;
+}

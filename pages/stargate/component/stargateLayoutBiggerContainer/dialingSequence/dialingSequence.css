@@ -1,0 +1,198 @@
+@keyframes dialingMolog0 {
+  0% {
+    background-color: black;
+  }
+  10% {
+    background-color: black;
+  }
+  11% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+  100% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+}
+@keyframes dialingMolog1 {
+  0% {
+    background-color: black;
+  }
+  20% {
+    background-color: black;
+  }
+  21% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+  100% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+}
+@keyframes dialingMolog2 {
+  0% {
+    background-color: black;
+  }
+  30% {
+    background-color: black;
+  }
+  31% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+  100% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+}
+@keyframes dialingMolog3 {
+  0% {
+    background-color: black;
+  }
+  40% {
+    background-color: black;
+  }
+  41% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+  100% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+}
+@keyframes dialingMolog4 {
+  0% {
+    background-color: black;
+  }
+  50% {
+    background-color: black;
+  }
+  51% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+  100% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+}
+@keyframes dialingMolog5 {
+  0% {
+    background-color: black;
+  }
+  60% {
+    background-color: black;
+  }
+  61% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+  100% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+}
+@keyframes dialingMolog6 {
+  0% {
+    background-color: black;
+  }
+  70% {
+    background-color: black;
+  }
+  71% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+  100% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+}
+@keyframes dialingMolog7 {
+  0% {
+    background-color: black;
+  }
+  80% {
+    background-color: black;
+  }
+  81% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+  100% {
+    background-color: rgb(0, 0, 0, 0);
+  }
+}
+
+.stargate-command-bigger-layout-atlantis {
+  .side-Terminal-right {
+    right:1rem;
+  }
+  .side-Terminal-left {
+    right:1rem;
+  }
+
+  .side-Terminal {
+    position: fixed;
+    justify-items: center;
+    pointer-events: none;
+    background-color: rgba(7, 7, 70, .6);
+    height:93.2%;
+    width:150px;
+    border-right: 4px solid lightblue;
+    border-left: 4px solid lightblue;
+    .side-Terminal-item-0,
+    .side-Terminal-item-1,
+    .side-Terminal-item-2,
+    .side-Terminal-item-3,
+    .side-Terminal-item-4,
+    .side-Terminal-item-5,
+    .side-Terminal-item-6,
+    .side-Terminal-item-7 {
+      width: 92px;
+      border: 2.5px solid lightblue;
+      position: relative;
+      border-radius: 1rem;
+      margin:1rem 1rem 1rem 1rem;
+      img {
+        width: 100%;
+        border-radius: 1rem;
+    }
+    }
+    .side-Terminal-item-0::before,
+    .side-Terminal-item-1::before,
+    .side-Terminal-item-2::before,
+    .side-Terminal-item-3::before,
+    .side-Terminal-item-4::before,
+    .side-Terminal-item-5::before,
+    .side-Terminal-item-6::before,
+    .side-Terminal-item-7::before {
+      position:absolute;
+      content: "";
+      top:0;
+      bottom:0;
+      right:0;
+      left:0;
+      border-radius: 1rem;
+    }
+    .side-Terminal-item-0::before {
+      animation: dialingMolog0 12s infinite;
+    }
+    .side-Terminal-item-1::before {
+      animation: dialingMolog1 12s infinite;
+    }
+    .side-Terminal-item-2::before {
+      animation: dialingMolog2 12s infinite;
+    }
+    .side-Terminal-item-3::before {
+      animation: dialingMolog3 12s infinite;
+    }
+    .side-Terminal-item-4::before {
+      animation: dialingMolog4 12s infinite;
+    }
+    .side-Terminal-item-5::before {
+      animation: dialingMolog5 12s infinite;
+    }
+    .side-Terminal-item-6::before {
+      animation: dialingMolog6 12s infinite;
+    }
+    .side-Terminal-item-7::before {
+      animation: dialingMolog7 12s infinite;
+    }
+  }
+}
+
+@media screen and (min-width: 1299px) {
+  .stargate-command-bigger-layout-atlantis {
+    .side-Terminal-left {
+      left: 0;
+    }
+  }
+}

@@ -1,0 +1,535 @@
+@keyframes dial-screen-1 {
+    0% {
+        background-color: #000;
+    }
+    13% {
+        background-color: #000;
+    }
+    14% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    15% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-2 {
+    0% {
+        background-color: #000;
+    }
+    23% {
+        background-color: #000;
+    }
+    24% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    25% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-3 {
+    0% {
+        background-color: #000;
+    }
+    33% {
+        background-color: #000;
+    }
+    34% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    35% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-4 {
+    0% {
+        background-color: #000;
+    }
+    43% {
+        background-color: #000;
+    }
+    44% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    45% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-5 {
+    0% {
+        background-color: #000;
+    }
+    53% {
+        background-color: #000;
+    }
+    54% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    55% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-6 {
+    0% {
+        background-color: #000;
+    }
+    63% {
+        background-color: #000;
+    }
+    64% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    65% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes dial-screen-7 {
+    0% {
+        background-color: #000;
+    }
+    73% {
+        background-color: #000;
+    }
+    74% {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    75% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+    100% {
+        background-color: rgba(240, 245, 255, 0);
+    }
+}
+
+@keyframes option-button-sg-1 {
+    0% {
+        background-color: rgba(255, 255, 255, .3);
+    }
+    40% {
+        background-color: rgba(255, 255, 255, .3);
+    }
+    42% {
+        background-color: rgba(137, 190, 87, .7);
+    }
+    44% {
+        background-color: rgba(255, 255, 255, .3);
+    }
+    47% {
+        background-color: rgba(255, 255, 255, .3);
+    }
+    48% {
+        background-color: rgba(137, 190, 87, .7);
+    }
+    49% {
+        background-color: rgba(255, 255, 255, .3);
+    }
+    53% {
+        background-color: rgba(255, 255, 255, .3);
+    }
+    54% {
+        background-color: rgba(137, 190, 87, .7);
+    }
+    55% {
+        background-color: rgba(255, 255, 255, .3);
+    }
+    73% {
+        background-color: rgba(255, 255, 255, .3);
+    }
+    74% {
+        background-color: rgba(137, 190, 87, .7);
+    }
+    75% {
+        background-color: rgba(255, 255, 255, .3);
+    }
+    76% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    77% {
+        background-color: rgba(255, 255, 255, .3);
+    }
+    78% {
+        background-color: rgba(0, 110, 255, .7);
+    }
+    79% {
+        background-color: rgba(255, 255, 255, .3);
+    }
+    100% {
+        background-color: rgba(255, 255, 255, .3);
+    }
+}
+
+.buttonSearchFilter {
+    width:2rem;
+    aspect-ratio: 1;
+}
+
+.buttonSearchFilter-atlantis {
+    position: relative;
+    border: 1px solid lightblue;
+}
+
+.buttonSearchFilter-atlantis::before {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width: 10%;
+    border-top: 2px solid lightblue;
+    border-left: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
+    backdrop-filter: blur(10px);
+    transition: width 2s, background-color 2s ease-out;
+}
+
+.buttonSearchFilter-atlantis:hover::before {
+    background-color: rgba(0, 255, 255, .5);
+    width: 100%;
+}
+
+.buttonSearchFilter-atlantis::after {
+    content: "";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    width: 10%;
+    border-top: 2px solid lightblue;
+    border-right: 2px solid lightblue;
+    border-bottom: 2px solid lightblue;
+    backdrop-filter: blur(10px);
+    transition: width 2s, background-color 2s ease-out;
+}
+
+.buttonSearchFilter-atlantis:hover::after {
+    width: 0%;
+}
+
+.buttonSearchFilter-sg-1 {
+    border: 2px solid rgb(0, 110, 255);
+    background-color: rgba(255, 255, 255, .3);
+    &:hover {
+        background-color: rgba(0, 255, 255, .5);
+    }
+}
+
+.inputSearchFilter {
+    text-align: center;
+    width:100%;
+}
+
+.inputSearchFilter-sg-1 {
+    color:white;
+    border: 2px solid rgb(0, 110, 255);
+    background-color: rgba(255, 255, 255, .3);
+    &:hover {
+        background-color: rgba(0, 255, 255, .5);
+    }
+    &:focus {
+        background-color: rgba(0, 255, 255, .5);
+    }
+}
+
+.buttonSearchFilter-sg-1-State {
+    background-color: rgba(0, 255, 255, .5);
+}
+
+.buttonSearchFilter-sg-1-unselected {
+    animation: option-button-sg-1 20s infinite;
+}
+
+.buttonSearchFilter-Atlantis-State {
+    background-color: rgba(0, 255, 255, .5);
+    transition:2s;
+}
+
+.stargate-popup-layout {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    padding:.3rem;
+    .stargate-popup{
+        position:relative;
+        height:100%;
+    }
+}
+
+.stargate-popup-dropBox {
+    position: absolute;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    top: 3.5rem;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #555;
+    border-bottom: 4px solid #555;
+    border-radius: 4px;
+}
+
+.stargate-popup-dropBox-sg-1 {
+    background-color: rgba(36, 40, 46,.5);
+    .State {
+        background-color: rgba(0, 255, 255, .5);
+    }
+    section {
+        justify-self: center;
+        padding:1rem;
+        background-color: #000;
+        width:80%;
+        border-top: 2px solid rgb(0, 110, 255);
+        border-left: 20px solid rgb(0, 110, 255);
+        border-right: 20px solid rgb(0, 110, 255);
+        border-bottom: 2px solid rgb(0, 110, 255);
+        margin-bottom: 1rem;
+    }
+    span {
+        position:relative;
+        justify-self: center;
+        height:100%;
+        width:80%;
+        margin-bottom: 1rem;
+        display: flex;
+        .block {
+            padding:0;
+            margin-bottom: 0;
+            border: 1px solid rgb(0, 110, 255);
+            display: inline-block;
+            img {
+                width:80%;
+            }
+        }
+        .part1,
+        .part2,
+        .part3,
+        .part4,
+        .part5,
+        .part6,
+        .part7 {
+            position: relative;
+        }
+
+        .part1::before,
+        .part2::before,
+        .part3::before,
+        .part4::before,
+        .part5::before,
+        .part6::before,
+        .part7::before {
+            content: "";
+            position: absolute;
+            left:0;
+            top:0;
+            right:0;
+            bottom:0;
+            background-color: #000;
+        }
+        .part1::before {
+            animation: dial-screen-1 20s infinite;
+        }
+        .part2::before {
+            animation: dial-screen-2 20s infinite;
+        }
+        .part3::before {
+            animation: dial-screen-3 20s infinite;
+        }
+        .part4::before {
+            animation: dial-screen-4 20s infinite;
+        }
+        .part5::before {
+            animation: dial-screen-5 20s infinite;
+        }
+        .part6::before {
+            animation: dial-screen-6 20s infinite;
+        }
+        .part7::before {
+            animation: dial-screen-7 20s infinite;
+        }
+    }
+}
+
+.stargate-popup-dropBox-atlantis {
+    background-color: rgba(12, 40, 78, .5);
+    .State {
+        background-color: rgba(0, 255, 255, .5);
+    }
+    section,
+    span {
+        position: relative;
+        border: 2px solid lightblue;
+    }
+    section {
+        justify-self: center;
+        padding:1rem;
+        background-color: rgb(12, 40, 78);
+        width:80%;
+        margin-bottom: 1rem;
+    }
+    section::before,
+    section::after,
+    span::before,
+    span::after {
+        content: "";
+        position: absolute;
+        background-color: rgba(12, 68, 78, 0.7);
+        backdrop-filter: blur(10px);
+        top:0;
+        bottom:0;
+        border-top: 3px solid lightblue;
+        border-bottom: 3px solid lightblue;
+        width: 15%;
+    }
+    section::before,
+    span::before {
+        left:0;
+        border-left: 3px solid lightblue;
+    }
+    section::after,
+    span::after {
+        right:0;
+        border-right: 3px solid lightblue;
+    }
+    span {
+        height:100%;
+        width:80%;
+        margin-bottom: 1rem;
+        display: inline-block;
+    }
+}
+
+
+
+@media screen and (min-width: 640px) {
+    .stargate-popup-dropBox{
+        width: 100%;
+    }
+}

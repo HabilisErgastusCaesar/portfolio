@@ -1,0 +1,23 @@
+.carrisonLayout {
+    margin: 0 30% 0 30%;
+    height:90px;
+    border: 1px solid black;
+    background-color: rgb(153, 127, 255);
+    border-bottom-left-radius:.8rem ;
+    border-bottom-right-radius:.8rem ;
+}
+
+.carrisonLayout > h3 {
+    margin-top: .4rem;
+    height: 2px;
+}
+
+.carrisonContainer {
+    border-top: 1px solid black;
+}
+
+
+.carrisonContainer > input {
+    width:6px;
+    height:100%;
+}

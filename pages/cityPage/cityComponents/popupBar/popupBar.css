@@ -1,0 +1,44 @@
+.popupBar {
+    display: flex;
+    height: 10%;
+    border-top: 1px solid black;
+    box-shadow: rgba(10, 37, 64, 0.35);
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.left-button-container {
+    position: relative;
+    margin-left: -40px;
+    height:50%;
+    width:100px;
+    margin-top: -10px;
+    background-color: rgb(174, 167, 199);
+    border: 1px solid black;
+}
+
+.left-button-container > p {
+    margin-top: 1%;
+    pointer-events: none;
+}
+
+.right-button-container {
+    position: relative;
+    height:50%;
+    width:100px;
+    margin-top: -10px;
+    background-color: rgb(174, 167, 199);
+    border: 1px solid black;
+}
+
+.right-button-container > p {
+    margin-top: 1%;
+    pointer-events: none;
+}
+
+.button-container-open {
+    background-color: rgb(116, 94, 196);
+}

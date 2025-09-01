@@ -1,0 +1,33 @@
+{
+  "name": "hello-next",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build, babel src -d lib",
+    "test": "jest",
+    "start": "next start",
+    "seed": "node prisma/seed.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "lodash.debounce": "^4.0.8",
+    "next": "^15.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "8.0.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.14",
+    "@types/react": "17.0.38",
+    "prisma": "^6.15.0",
+    "typescript": "^5.8.2"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.mjs"
+  }
+}

@@ -1,0 +1,91 @@
+.placedCivilBuildings {
+    background-color: blueviolet;
+    overflow: hidden;
+}
+
+.placedCivilBuildings > p {
+    pointer-events: none;
+}
+
+.civilBuilding-popup {
+    padding:.5rem;
+    position: absolute;
+    transform: translate(+300%, +50%);
+    z-index: 1000;
+    border: 1px solid black;
+    background-color: blueviolet;
+    border-radius: 4px;
+}
+
+.civil-button-container {
+    justify-items: center;
+    width:30px;
+    height:30px;
+    border: 1px solid black;
+    background-color: beige;
+    border-radius: .3rem;
+    cursor: pointer;
+}
+
+.civil-down-button {
+    width: 0; 
+    height: 0; 
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 20px solid green;
+    pointer-events: none;
+}
+
+.civil-up-button {
+    width: 0; 
+    height: 0; 
+    margin-top: 10px;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 20px solid green; 
+    pointer-events: none;
+}
+
+.civil-left-button {
+    width: 0; 
+    height: 0; 
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 20px solid green;
+    transform: rotate(90deg);
+    pointer-events: none;
+}
+
+.civil-right-button {
+    width: 0; 
+    height: 0; 
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 20px solid green;
+    transform: rotate(-90deg);
+    pointer-events: none;
+}
+
+.left-right-buttons {
+    display: flex;
+    direction: column;
+}
+
+.civil-container {
+    overflow-y: auto;
+    justify-items: center;
+    border: 1px solid black;
+    border-radius: .3rem;
+    background-color: antiquewhite;
+    margin-bottom:1rem;
+    max-height: 450px;
+}
+
+.civil-container > h4 {
+    margin: .3rem;
+}
+
+.civil-button-container :hover {
+    background-color:  rgb(228, 170, 10);
+}
+

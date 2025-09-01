@@ -1,0 +1,98 @@
+.select_seasons {
+    position:relative;
+    width:100%;
+    max-width:600px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    cursor:default;
+    color: white;
+}
+
+.select_episodes {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: black;
+    height:0px;
+    width:100%;
+    left: 0;
+    overflow:hidden;
+    transition: 0s;
+    z-index:10;
+}
+
+.select_seasons_sg-1 {
+    position: relative;
+    width:34%;
+    padding:.3rem;
+    background-color: rgba(0, 110, 255, .3);
+    transition: 2s;
+}
+
+.select_seasons_atlantis {
+    position: relative;
+    width:34%;
+    padding:.3rem;
+    background-color: rgba(0, 110, 255, 0.3);
+    transition: 2s;
+}
+
+.select_seasons_universe {
+    position: relative;
+    width:34%;
+    padding:.3rem;
+    background-color: rgba(0, 110, 255, 0.3);
+    transition-duration: 2s;
+}
+
+
+.select_seasons_sg-1:hover {
+    background-color: rgba(0, 255, 13, 0.7);
+    transition-duration: 2s;
+}
+
+.select_seasons_sg-1:hover .select_episodes {
+    height: 110%;
+    background-color: rgba(0, 110, 255);
+    transition-duration: height 2s ease;
+    top: 30px;
+    overflow: visible;
+    transition: background-color 2s, top 2s;
+}
+
+.select_seasons_sg-1 .select_episodes {
+    height: 0;
+    transition: height 0s ease, background-color 2s ease, top 2s ease;
+}
+
+.select_seasons_atlantis:hover {
+    background-color: rgba(0, 255, 13, 0.7);
+}
+
+.select_seasons_atlantis:hover .select_episodes {
+    height: 110%;
+    background-color: rgba(0, 110, 255);
+    transition-duration: 2s;
+    top: 30px;
+    overflow: visible;
+    transition: background-color 2s, top 2s;
+}
+
+.select_seasons_atlantis .select_episodes {
+    height: 0;
+    transition: height 0s ease, background-color 2s ease, top 2s ease;
+}
+
+.select_seasons_universe:hover {
+    background-color: rgba(0, 255, 13, 0.7);
+}
+
+.select_seasons_universe:hover .select_episodes {
+    height: 110%;
+    background-color: rgba(0, 110, 255);
+    transition-duration: 0s;
+    top: 30px;
+    overflow: visible;
+    transition:background-color 2s, top 2s;
+}

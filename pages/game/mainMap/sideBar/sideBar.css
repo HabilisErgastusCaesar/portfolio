@@ -1,0 +1,14 @@
+.game-main-window {
+    .mainMap-sidebar {
+        .sideBar {
+            width: 200px;
+            background-color: azure;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+            .mainBuilding {
+                background-color: aqua;
+                border-top: 2px solid black;
+                border-bottom: 2px solid black;
+            }
+        }
+    }}

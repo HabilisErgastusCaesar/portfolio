@@ -1,0 +1,95 @@
+.stargate-command-layout-sg-1 {
+    height:94vh;
+    overflow-y: hidden;
+    background-color: #000;
+    font-family: sans-serif;
+    border: 5px solid rgb(0, 110, 255);
+    border-radius: 5px;
+    animation: smallLightAnimation var(--timing) infinite;
+    width: 100%;
+
+    .option-button {
+      background-color: rgba(255, 255, 255, .3);
+      border-bottom: 4px solid rgb(0, 110, 255);
+      animation: smallLightAnimation var(--timing) infinite;
+      
+    section {
+      border: 2px solid rgb(0, 110, 255);
+      width:33%;
+    }
+    .selected {
+      background-color: #000;
+      height:5rem;
+    }
+    .selected-info {
+      border-right:none;
+      border-bottom-right-radius: 1rem;
+    }
+    .selected-cast {
+      border-left:none;
+      border-bottom-left-radius: 1rem;
+    }
+    .not-selected {
+      border-top: none;
+      background-color: #000;
+      height:2rem;
+    }
+    .not-selected-cast {
+      border-left:none;
+      border-right:none;
+      border-bottom-left-radius: 1rem;
+    }
+    .not-selected-info {
+      border-left:none;
+      border-right:none;
+      border-bottom-right-radius: 1rem;
+    }}
+    
+    .search {
+      height:95vh;
+    }
+    .non-search {
+      height:83.8vh;
+    }
+
+    .stargate-command-layout-child {
+      overflow-y: auto;
+      overflow-x: hidden;
+      
+      scrollbar-color: rgb(0, 255, 13) rgba(0, 110, 255, 0);
+      scrollbar-width: thin;
+    
+    .stargate-episode-layout {
+    margin-bottom:2rem;
+    margin-top: 2rem;
+    .main_box_h3,
+    .main_box_p {
+        border-left: 20px solid rgb(0, 110, 255);
+        border-right: 20px solid rgb(0, 110, 255);
+    }
+    .main_box_h3 {
+        border-top: 2px solid rgb(0, 110, 255);
+        border-bottom: 2px solid rgb(0, 110, 255);
+        box-shadow: inset 0 0 0px white;
+        transition: border-top 2s, border-bottom 2s, border-left 2s, border-right 2s, box-shadow 2s;
+    }
+    
+    .main_box_p {
+        border-left: 2px solid rgb(0, 110, 255);
+        border-right: 2px solid rgb(0, 110, 255);
+        transition: border-left 2s, border-right 2s;
+    }
+    
+    &:hover {
+        .main_box_h3{
+        border-top: 2px solid rgb(0, 255, 13);
+        border-bottom: 2px solid rgb(0, 255, 13);
+        border-left: 20px solid rgb(0, 255, 13);
+        border-right: 20px solid rgb(0, 255, 13);
+        box-shadow: inset 0 0 25px white;
+        }
+        
+        .main_box_p{
+        border-left: 2px solid rgb(0, 255, 13);
+        border-right: 2px solid rgb(0, 255, 13);
+}}}}}

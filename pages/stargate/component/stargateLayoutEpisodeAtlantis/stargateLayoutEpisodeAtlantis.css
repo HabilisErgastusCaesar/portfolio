@@ -1,0 +1,252 @@
+.stargate-command-layout-atlantis {
+  background-color: rgb(12, 40, 78);
+  border: 5px solid lightblue;
+  box-shadow:inset 0 0 50px rgb(96, 164, 187);
+  scrollbar-color: lightblue rgba(0, 110, 255, 0);
+  .headings {
+    position: relative;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    background-color: rgb(0, 0, 0, .3);
+    border-right: 3px solid lightblue;
+    &::before,
+    &::after {
+      position: absolute;
+      content: "";
+      border-right: 5px solid lightblue;
+      border-left: 5px solid lightblue;
+      right:0;
+      left:0;
+    }
+    &::before {
+      top:0;
+      height:20%;
+    }
+    &::after {
+      bottom:0;
+      height:40%;
+    }
+  }
+  .Atlantis-2 {
+    background-color: black;
+  }
+  .option-button {
+    background-color: black;
+    border-bottom: 3px solid lightblue;
+    box-shadow:inset 0 0 30px rgb(96, 164, 187) ,  0 0 50px rgb(96, 164, 187);
+    .not-selected,
+    .selected {
+      background-color: rgb(12, 40, 78);
+    }
+    .not-selected {
+      border-bottom: 3px solid lightblue;
+    }
+    .not-selected-cast {
+      border-left: 1px solid lightblue;
+    }
+    .not-selected-info {
+      border-right: 1px solid lightblue;
+    }
+    .selected {
+      border-right: 3px solid lightblue;
+      border-left: 3px solid lightblue;
+    }
+    .selected-info {
+      border-right: none;
+      border-bottom-right-radius: 0;
+    }
+    .selected-cast {
+      border-bottom-left-radius: 0;
+      border-left: none;
+    }
+  }
+}
+
+.stargate-command-layout-child{
+  .search {
+    height:91vh;
+  }
+  .non-search {
+    height:82.66vh;
+  }
+  .stargate-layout-Atlantis {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-top: 2px solid lightblue;
+    .main_box_p,
+    .main_box_p_2 {
+      background-color: rgb(12, 40, 78);
+      border-right: 3px solid lightblue;
+      border-top: 3px solid lightblue;
+      box-shadow:inset 0 0 50px rgb(96, 164, 187);
+    }
+
+    .Atlantis-Terminal {
+      height: 4rem;
+      overflow: hidden;
+      position: relative;
+      border-right: 3px solid lightblue;
+    }
+
+    .terminal-text {
+      position: absolute; 
+      top: 0; 
+      left: 0; 
+      text-align: left;
+      padding-left:1rem;
+      padding-right:1rem;
+      white-space: nowrap; 
+      animation: scrollText 10s linear infinite; 
+    }
+    
+    .stargate-episode-layout {
+      border-bottom: 4px solid lightblue;
+      .main_box_h3_2 {
+        position:relative;
+        margin:.2rem;
+        padding: 1rem;
+        background-color: rgb(12, 40, 78);
+        box-shadow:inset 0 0 30px rgb(96, 164, 187) ,  0 0 50px rgb(96, 164, 187);
+        border: 1px solid lightblue;
+        &::before,
+        &::after {
+          content: "";
+          position: absolute; 
+          top: 0;
+          bottom:0;
+          width: 15%;
+          border-top: 2px solid lightblue; 
+          border-bottom: 2px solid lightblue;
+        }
+        &::after {
+          left:0;
+          border-left: 2px solid lightblue;
+          transition: width 2s;
+        }
+        &::before {
+          right: 0; 
+          border-right: 2px solid lightblue; 
+          transition: width 2s;
+        }
+      }
+      .main_box_h3 {
+        background-color: rgb(12, 40, 78);
+        border-right: 3px solid lightblue;
+        border-top: 3px solid lightblue;
+        border-right: 3px solid lightblue;
+        box-shadow:inset 0 0 30px rgb(96, 164, 187) ,  0 0 50px rgb(96, 164, 187);
+      }
+      .bar {
+        border: 2px solid lightblue;
+      }
+      
+      .top {
+        -webkit-animation-name: h-move;
+        animation-name: h-move;
+      }
+
+      &:hover {
+        .main_box_h3_2::after {
+          width: 50%;
+        }
+
+        .main_box_h3_2::before {
+          width: 50%;
+        }
+      }
+    }
+  }
+  .stargate-layout-atlantis::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:35%;
+    width:30%;
+    border-top: 3px solid lightblue;
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .stargate-command-layout-atlantis {
+    border-radius: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    .stargate-command-layout-child {
+      border: 3px solid lightblue;
+    }
+    .option-button {
+      border-left: 3px solid lightblue;
+      border-right: 3px solid lightblue;
+    }
+    .search {
+      height:91vh;
+    }
+    .non-search {
+      height:84vh;
+    }
+    .stargate-layout-Atlantis {
+      height:79vh;
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .stargate-layout-atlantis .stargate-episode-layout {
+    .main_box_img, p {
+      margin: 5%;
+      border: 1px solid lightblue;
+      box-shadow:inset 0 0 30px rgb(96, 164, 187) ,  0 0 50px rgb(96, 164, 187);
+    }
+    
+    .main_box_img {
+      transition:box-shadow 2s, padding-left 2s, padding-bottom 2s, padding-top 2s, height 2s, margin 2s,  border-top 1.6s,  border-bottom 1.6s,  border-right 1.6s;
+    }
+
+    p {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 1rem;
+      transition:box-shadow 2s, padding-left 2s, padding-bottom 2s, padding-top 2s, height 2s, margin 2s,  border-top 1.6s,  border-bottom 1.6s;
+    }
+    &:hover {
+      .main_box_img, p {
+        border-top: 0px solid lightblue;
+        border-right: 0px solid lightblue;
+        border-bottom: 0px solid lightblue;
+        margin: 0%;
+        animation: boxShadowAtlantis 6s infinite;
+      }
+      
+      .main_box_img {
+        margin-left: 5%; 
+        border-left: 1px solid lightblue;
+        box-shadow:inset 0 0 30px rgb(96, 164, 187) ,  0 0 50px rgb(96, 164, 187);
+      }
+
+      p {
+        margin-right: 5%;
+        height:100%;
+        box-shadow:inset 0 0 50px rgb(96, 164, 187) ,  0 0 50px rgb(96, 164, 187);
+        padding-top:1.8rem;
+        padding-bottom:1.8rem;
+        padding-left:1.8rem;    
+      }
+    }
+    
+  }
+
+  .stargate-layout-atlantis .stargate-episode-layout .stargate-episode-container {
+    height:11.7rem;
+    transition-duration: 2s;
+  }
+}
+
+
+@media screen and (min-width: 1199px) {
+  .stargate-episode-container {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+}

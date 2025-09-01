@@ -1,0 +1,10 @@
+.game-main-window {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    height:100vh;
+    .mainMap-sidebar {
+        flex-grow: 1;
+        display: flex;
+    }
+}

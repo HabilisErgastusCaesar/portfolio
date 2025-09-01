@@ -1,0 +1,21 @@
+[
+    {
+        "id":"mainBuildingOne",
+        "userId":"mainMapPlayer_one",
+        "x": 192.7559055141,
+        "y": 192.7559055141,
+        "width":56.69291338650001,
+        "height":56.69291338650001,
+        "popup": false,
+        "currentLevel": 0,
+        "type":["collective house lvl 1","palace lvl 1","collective house lvl 2",
+        "palace lvl 2","collective house lvl 3","palace lvl 3","markt lvl 1","palace lvl 4",
+        "markt lvl 2","collective house lvl 4","palace lvl 5","markt lvl 3"],
+        "modules":[""],
+        "levels":"mainBuildingLevel",
+        "buildNeeds":[""],
+        "img":"",
+        "buildTime":10,
+        "residents":0
+    }
+]
