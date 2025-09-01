@@ -56,7 +56,7 @@ export const DropDownMenu = () => {
     <div 
     onMouseLeave={() => resetDropBoxHoverSg()}
     className="select_seasons">
-        {!Context.windowWidth.searchFilter && <SearchFilter/>}
+        {!Context.windowWidth.searchFilter && <SearchFilter  stargate={Context.stargate} />}
         <span
         className="select_seasons_sg-1"
         > stargate sg-1
