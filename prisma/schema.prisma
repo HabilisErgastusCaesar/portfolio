@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://portfoliobackend_vnxm_user:yQ4l6grV8aoyREJORG7HrzSJ2puj8wKJ@dpg-d2opkiripnbc73a4bvig-a.frankfurt-postgres.render.com/portfoliobackend_vnxm"
+  url      = env("DATABASE_URL")
 }
 
 model Episode {
