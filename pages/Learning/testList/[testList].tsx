@@ -1,6 +1,10 @@
 import { useLearningContext } from "../../../components/learningApp/Context/learningContext"
 import { Navigation } from "../../../components/navigate";
+<<<<<<< HEAD
 import { QandADropdown } from "../../../components/learningApp/testList/QandADropdown";
+=======
+import { QandADropdown } from "./component/QandADropdown";
+>>>>>>> 9a5bb83fe6641e9fd2b5f2ae2a95e8a554225f91
 
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react"
