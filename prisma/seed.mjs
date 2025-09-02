@@ -1,13 +1,13 @@
 import { PrismaClient } from '@prisma/client'
-import stargateData from '../pages/stargate/data/episode.json' assert { type: 'json' }
-import stargateAdressesData from '../pages/stargate/data/stargateAddresses.json' assert { type: 'json' }
-import accountData from '../pages/Learning/data/accounts.json' assert { type: 'json' }
-import QandAData from '../pages/Learning/data/QandAData.json' assert { type: "json" }
-import Players from '../pages/game/data/playerProfile.json' assert { type:"json" }
-import PlayerCitys from '../pages/game/data/playerCitys.json' assert { type:"json" }
-import MainBuildings from '../pages/game/data/mainBuilding.json' assert { type:"json" }
-import MainBuildingsLevels from '../pages/game/data/levels/mainBuildingLevel.json' assert { type:'json' }
-import stargateCastData from '../pages/stargate/data/stargateCast.json' assert { type:"json" }
+import stargateData from '../data/stargate/episode.json' assert { type: 'json' }
+import stargateAdressesData from '../data/stargate/stargateAddresses.json' assert { type: 'json' }
+import stargateCastData from '../data/stargate/stargateCast.json' assert { type:"json" }
+import accountData from '../data/logins/accounts.json' assert { type: 'json' }
+import QandAData from '../data/learning/QandAData.json' assert { type: "json" }
+import Players from '../data/game/playerProfile.json' assert { type:"json" }
+import PlayerCitys from '../data/game/data/playerCitys.json' assert { type:"json" }
+import MainBuildings from '../data/game/data/mainBuilding.json' assert { type:"json" }
+import MainBuildingsLevels from '../data/game/data/levels/mainBuildingLevel.json' assert { type:'json' }
 import {v4 as uuidv4} from 'uuid';
 
 const prisma = new PrismaClient({ log: ['query', 'info', 'warn', 'error'] })

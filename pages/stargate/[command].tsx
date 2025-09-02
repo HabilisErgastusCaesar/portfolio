@@ -1,6 +1,6 @@
-import { DropDownMenu } from "./stargateSeasons/dropDownMenu"
-import { StargateProvider } from "./stargateComponents/stargateComponents"
-import { StargateSearchEpisode } from "./stargateSeasons/stargateSearchEpisode"
+import { DropDownMenu } from "../../components/stargate/dropDownMenu"
+import { StargateProvider } from "../../components/stargate/useContext/stargateComponents"
+import { StargateSearchEpisode } from "../../components/stargate/stargateSearchEpisode"
 
 const Stargate = () => {
     return(<div style={{

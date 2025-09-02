@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 
-import { Login } from "./component/login";
-import { LoggedIn } from "./component/loggedIn";
+import { Login } from "../../components/learningApp/logged/login";
+import { LoggedIn } from "../../components/learningApp/logged/loggedIn";
 
 const LearningApp = () => {
     const user = useRouter().query.Menu

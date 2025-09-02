@@ -1,8 +1,8 @@
-import { StatusBar } from "./statusBar/statusBar"
-import { MainMap } from "./mainMap/mainMap"
-import { OptionsBar } from "./optionsBar/optionsBar"
-import { SideBar } from "./sideBar/sideBar"
-import { useGamesContext } from "../Context/gameContext"
+import { StatusBar } from "../../../components/game/statusBar/statusBar"
+import { MainMap } from "../../../components/game/mainMap/mainMap"
+import { OptionsBar } from "../../../components/game/optionsBar/optionsBar"
+import { SideBar } from "../../../components/game/sideBar/sideBar"
+import { useGamesContext } from "../../../components/game/Context/gameContext"
 
 import { useState, useEffect } from "react"
 import { useRouter } from "next/router"

@@ -1,4 +1,4 @@
-import { useLearningContext } from "../learningContext"
+import { useLearningContext } from "../../../components/learningApp/Context/learningContext"
 
 import { useRouter } from "next/router";
 import { useEffect } from "react"
