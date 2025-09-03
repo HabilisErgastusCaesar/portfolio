@@ -1,1 +1,0 @@
-export const carDetail = {car1:0,car2:0,car3:0,car4:0,car5:0,car6:0,car7:0,car8:0,car9:0,car10:0}
