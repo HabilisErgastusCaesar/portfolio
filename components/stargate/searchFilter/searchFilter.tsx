@@ -6,6 +6,7 @@ import { useStargateContext } from "../useContext/stargateComponents"
 import { SearchResult } from "./searchResult/searchResult";
 
 export const SearchFilter = ({stargate}) => {
+    console.log(stargate)
     const { Context } = useStargateContext();
     const router = useRouter();
     const classSelect = stargate

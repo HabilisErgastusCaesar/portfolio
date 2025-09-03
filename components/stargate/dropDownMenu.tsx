@@ -51,16 +51,11 @@ export const DropDownMenu = () => {
         }
         return returnDictionary
     }
-    
     return(
     <div 
     onMouseLeave={() => resetDropBoxHoverSg()}
     className="select_seasons">
-<<<<<<< HEAD:components/stargate/dropDownMenu.tsx
-        {!Context.windowWidth.searchFilter && <SearchFilter stargate={Context.stargate} />}
-=======
-        {!Context.windowWidth.searchFilter && <SearchFilter  stargate={Context.stargate} />}
->>>>>>> 9a5bb83fe6641e9fd2b5f2ae2a95e8a554225f91:pages/stargate/stargateSeasons/dropDownMenu.tsx
+        {!Context.windowWidth.searchFilter && <SearchFilter stargate="atlantis" />}
         <span
         className="select_seasons_sg-1"
         > stargate sg-1

@@ -1,11 +1,12 @@
 import { LearningProvider } from '../components/learningApp/Context/learningContext'
 import { GamesProvider } from '../components/game/Context/gameContext'
+import { StargateProvider } from '../components/stargate/useContext/stargateComponents'
 
 import '../styles/game/mainMap.css'
-import '../styles/game//mainMapContainer.css'
-import '../styles/game//optionsBar.css'
-import '../styles/game//statusBar.css'
-import '../styles/game//sideBar.css'
+import '../styles/game/mainMapContainer.css'
+import '../styles/game/optionsBar.css'
+import '../styles/game/statusBar.css'
+import '../styles/game/sideBar.css'
 
 import '../styles/stargate/episode.css'
 import '../styles/stargate/dropDownMenu.css'
@@ -28,11 +29,13 @@ import '../styles/Learning/testList.css'
 import '../styles/index.css'
 
 const App = ({ Component}) => {
-  return (<LearningProvider>
+  return (<StargateProvider>
+  <LearningProvider>
     <GamesProvider>
       <Component />
     </GamesProvider>
-  </LearningProvider>);
+  </LearningProvider>
+  </StargateProvider>);
 };
 
 export default App;
