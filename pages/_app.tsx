@@ -1,4 +1,4 @@
-import { StargateProvider } from '../components/useContext/stargateComponents';
+import { StargateProvider } from '../components/stargate/useContext/stargateComponents';
 
 import '../styles/_app.css'
 import '../styles/index.css'
