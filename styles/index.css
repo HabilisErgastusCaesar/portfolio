@@ -1,0 +1,57 @@
+.portfolio-layout {
+    background-color: lightblue;
+    div {
+        display:flex;
+        border:1px solid purple;
+        max-width:65rem;
+        padding:1rem;
+        margin:1rem;
+        justify-self:center;
+    }
+    h1 {
+        padding:1rem;
+    }
+    h2 {
+        padding:1rem;
+    }
+    h3 {
+        padding:1rem;
+    }
+    p {
+        padding:1rem;
+        border:1px solid purple;
+        width:95%;
+        margin:1rem 0;
+    }
+    ol {
+        padding:1rem 3rem;
+        border:1px solid purple;
+        max-width:15rem;
+        margin-bottom:1rem;
+    }
+    section {
+        border:1px solid purple;
+        max-width:65rem;
+        padding:1rem;
+        margin:1rem;
+        justify-self:center;
+    }
+    span {
+        display:flex;
+        border-top:1px solid purple;
+        padding:1rem;
+        justify-self:center;
+    }
+    .der-mench {
+        display: flex;
+        flex-direction: column;
+    }
+    @media screen and (min-width : 500px) {
+        .der-mench {
+            flex-direction: row;
+            p {
+                margin: 1rem;
+            }
+        }
+    }
+}
