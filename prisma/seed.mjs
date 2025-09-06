@@ -5,9 +5,9 @@ import stargateCastData from '../data/stargate/stargateCast.json' assert { type:
 import accountData from '../data/logins/accounts.json' assert { type: 'json' }
 import QandAData from '../data/learning/QandAData.json' assert { type: "json" }
 import Players from '../data/game/playerProfile.json' assert { type:"json" }
-import PlayerCitys from '../data/game/data/playerCitys.json' assert { type:"json" }
-import MainBuildings from '../data/game/data/mainBuilding.json' assert { type:"json" }
-import MainBuildingsLevels from '../data/game/data/levels/mainBuildingLevel.json' assert { type:'json' }
+import PlayerCitys from '../data/game/playerCitys.json' assert { type:"json" }
+import MainBuildings from '../data/game/mainBuilding.json' assert { type:"json" }
+import MainBuildingsLevels from '../data/game/levels/mainBuildingLevel.json' assert { type:'json' }
 import {v4 as uuidv4} from 'uuid';
 
 const prisma = new PrismaClient({ log: ['query', 'info', 'warn', 'error'] })

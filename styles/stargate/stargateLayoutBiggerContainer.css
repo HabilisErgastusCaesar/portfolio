@@ -13,10 +13,10 @@
       width:23rem;
     }
     .cast-layout-parent {
-      width:20rem;
+      width:22rem;
     }
     .stargate-command-layout-parent {
-      width:20rem;
+      width:24rem;
     }
     .stargate-command-layout {
       width:100%;
@@ -265,7 +265,7 @@
           width:18rem;
       }
       .stargate-command-layout-parent {
-        width:26rem;
+        width:32rem;
       }
       .headings-scroll {
         transform: translateX(1rem);
@@ -310,6 +310,9 @@
       }
       .cast-layout-parent {
           width:22rem;
+      }
+      .stargate-command-layout-parent {
+        width:38rem;
       }
     }
     .stargate-command-layout {
@@ -372,13 +375,16 @@
         width:22.6rem;
       }
       .info-layout {
-          width:20.6rem;
+        width:20.6rem;
       }
       .cast-layout {
-          width:22rem;
+        width:22rem;
       }
       .cast-layout-parent {
-          width:24rem;
+        width:24rem;
+      }
+      .stargate-command-layout-parent {
+        width:40rem;
       }
     }
   }

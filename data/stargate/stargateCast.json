@@ -11,7 +11,7 @@
         "atlantisSeasonFor":"all",
         "atlantisSeasonFive":"all",
         "atlantis":true,
-        "img":"/images/actors/Joe-Flanigan.png"
+        "img":"/images/actors/Joe-Flanigan.webp"
     },
     {
         "id":"RachelLuttrell",
@@ -25,7 +25,7 @@
         "atlantisSeasonFor":"all",
         "atlantisSeasonFive":"all",
         "atlantis":true,
-        "img":"/images/actors/Rachel-Luttrell.png"
+        "img":"/images/actors/Rachel-Luttrell.webp"
     },
     {   
         "id":"DavidHewlett",
@@ -39,7 +39,7 @@
         "atlantisSeasonFor":"all",
         "atlantisSeasonFive":"all",
         "atlantis":true,
-        "img":"/images/actors/David-Hewlett.png"
+        "img":"/images/actors/David-Hewlett.webp"
     },
     {   
         "id":"JasonMomoa",
@@ -53,7 +53,7 @@
         "atlantisSeasonFor":"all",
         "atlantisSeasonFive":"all",
         "atlantis":true,
-        "img":"/images/actors/Jason-momoa.png"
+        "img":"/images/actors/Jason-momoa.webp"
     },
     {   
         "id":"TorriHigginson",    
@@ -67,7 +67,7 @@
         "atlantisSeasonFor":"select e1 e2 e10 e11",
         "atlantisSeasonFive":"none",
         "atlantis":true,
-        "img":"/images/actors/Torri Higginson.png"
+        "img":"/images/actors/Torri Higginson.webp"
     },
     {   
         "id":"PaulMcGillion",
@@ -81,7 +81,7 @@
         "atlantisSeasonFor":"select e18 e19",
         "atlantisSeasonFive":"select e2 e7 e12 e18 e20",
         "atlantis":true,
-        "img":"/images/actors/Paul-McGillion.png"
+        "img":"/images/actors/Paul-McGillion.webp"
     },
     {   
         "id":"DavidNykl",
@@ -95,7 +95,7 @@
         "atlantisSeasonFor":"select e1 e2 e3 e4 e6 e9 e10 e11 e12 e13 e20",
         "atlantisSeasonFive":"select e2 e4 e5 e6 e10 e11 e14 e15 e18 e19 e20",
         "atlantis":true,
-        "img":"/images/actors/David-Nykl.png"
+        "img":"/images/actors/David-Nykl.webp"
     },
     {   
         "id":"ChuckCampbell",
@@ -109,7 +109,7 @@
         "atlantisSeasonFor":"select e1 e6 e8 e10 e11 e13 e16 e17 e18 e20",
         "atlantisSeasonFive":"select e4 e5 e10 e11 e15 e20",
         "atlantis":true,
-        "img":"/images/actors/Chuck-Campbell.png"
+        "img":"/images/actors/Chuck-Campbell.webp"
     },
     {   
         "id":"JewelStaite",
@@ -123,7 +123,7 @@
         "atlantisSeasonFor":"select e1 e4 e6 e7 e8 e10 e13 e16 e18 e19 e20",
         "atlantisSeasonFive":"all",
         "atlantis":true,
-        "img":"/images/actors/Jewel-Staite.png"
+        "img":"/images/actors/Jewel-Staite.webp"
     },
     {   
         "id":"JonJohnson",
@@ -137,7 +137,7 @@
         "atlantisSeasonFor":"select e1 e8 e10 e17 e18 e19",
         "atlantisSeasonFive":"select e3 e6 e8 e13 e17 e20",
         "atlantis":true,
-        "img":"/images/actors/Joe-Flanigan.png"
+        "img":"/images/actors/Joe-Flanigan.webp"
     },
     {   
         "id":"ColinDecker",
@@ -151,7 +151,7 @@
         "atlantisSeasonFor":"select e1 e6 e12 e17",
         "atlantisSeasonFive":"select e8 e9 e10 e14",
         "atlantis":true,
-        "img":"/images/actors/Joe-Flanigan.png"
+        "img":"/images/actors/Joe-Flanigan.webp"
     },
     {   
         "id":"LaloEspejo",
@@ -165,7 +165,7 @@
         "atlantisSeasonFor":"select s2 e3 e5 e6 e7 e8 e11 e16 e17 e20",
         "atlantisSeasonFive":"select e2 e3 e5 e10 e11 e16 e18",
         "atlantis":true,
-        "img":"/images/actors/Joe-Flanigan.png"
+        "img":"/images/actors/Joe-Flanigan.webp"
     },
     {   
         "id":"DHarlanCutshall",
@@ -179,7 +179,7 @@
         "atlantisSeasonFor":"select e1 e2 e4 e6 e8 e10 e11 e16 e17 e20",
         "atlantisSeasonFive":"select e2 e6 e10 e11 e20",
         "atlantis":true,
-        "img":"/images/actors/D-Harlan-Cutshall.png"
+        "img":"/images/actors/D-Harlan-Cutshall.webp"
     },
     {   
         "id":"KavanSmith",
@@ -193,7 +193,7 @@
         "atlantisSeasonFor":"select e4 e5 e6 e10 e12 e13 e18 e20",
         "atlantisSeasonFive":"select e1 e3 e4 e13 e14 e17 e20",
         "atlantis":true,
-        "img":"/images/actors/Kavan-Smith.png"
+        "img":"/images/actors/Kavan-Smith.webp"
     },
     {   
         "id":"RobertPicardo",
@@ -207,7 +207,7 @@
         "atlantisSeasonFor":"select e8 e20",
         "atlantisSeasonFive":"select e1 e2 e3 e4 e5 e6 e7 e8 e9 e10 e11 e12 e13 e14 e15 e16 e17 e18 e19 e20",
         "atlantis":true,
-        "img":"/images/actors/Robert-Picardo.png"
+        "img":"/images/actors/Robert-Picardo.webp"
     },
     {   
         "id":"AmandaTapping",
@@ -221,7 +221,7 @@
         "atlantisSeasonFor":"select e1 e2 e3 e4 e5 e6 e7 e8 e9 e10 e11 e12 e13 e14 e15 e16 e17 e18 e19 e20",
         "atlantisSeasonFive":"select e1 e20",
         "atlantis":true,
-        "img":"/images/actors/Joe-Flanigan.png"
+        "img":"/images/actors/Joe-Flanigan.webp"
     },
     {   
         "id":"RainbowSunFrancks",
@@ -235,7 +235,7 @@
         "atlantisSeasonFor":"none",
         "atlantisSeasonFive":"select e1",
         "atlantis":true,
-        "img":"/images/actors/Rainbow-Sun-Francks.png"
+        "img":"/images/actors/Rainbow-Sun-Francks.webp"
     },
     {   
         "id":"EdHuber",
@@ -249,6 +249,6 @@
         "atlantisSeasonFor":"select e4 e6 e8 e17",
         "atlantisSeasonFive":"selec e15 e20",
         "atlantis":true,
-        "img":"/images/actors/Joe-Flanigan.png"
+        "img":"/images/actors/Joe-Flanigan.webp"
     }
 ]
