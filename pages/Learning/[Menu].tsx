@@ -9,18 +9,18 @@ const LearningApp = () => {
         <h1>Scire</h1>
         {user && user === "logged-out" && 
         <>
-        <img src="/images/placeholder1.jpg"/>
+        <img src="/images/placeholder1.webp"/>
         <Login />
-        <img src="/images/placeholder2.jpg"/>
-        <img src="/images/placeholder3.jpg"/>
-        <img src="/images/placeholder4.jpg"/>
-        <img src="/images/placeholder5.jpg"/>
-        <img src="/images/placeholder6.jpg"/>
-        <img src="/images/placeholder7.jpg"/>
-        <img src="/images/placeholder8.jpg"/>
-        <img src="/images/placeholder9.jpg"/>
-        <img src="/images/placeholder10.jpg"/>
-        <img src="/images/placeholder11.jpg"/>
+        <img src="/images/placeholder2.webp"/>
+        <img src="/images/placeholder3.webp"/>
+        <img src="/images/placeholder4.webp"/>
+        <img src="/images/placeholder5.webp"/>
+        <img src="/images/placeholder6.webp"/>
+        <img src="/images/placeholder7.webp"/>
+        <img src="/images/placeholder8.webp"/>
+        <img src="/images/placeholder9.webp"/>
+        <img src="/images/placeholder10.webp"/>
+        <img src="/images/placeholder11.webp"/>
         </>
         }
         {user && user !== "logged-out" && <LoggedIn />}
